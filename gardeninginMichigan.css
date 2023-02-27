@@ -1,0 +1,85 @@
+
+<title>Gardening in Michigan</title>
+a{
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    color: purple;
+}
+a:hover{
+	color: green;
+}
+header{
+	background: beige;
+    height:30px;
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    border: 3px solid purple;
+    border-radius: 5px;
+}
+h1{
+	text-align: center;
+    padding-bottom: 50px;
+    color: purple;
+}
+h2{
+	text-align: center;
+    text-shadow: 2px 2px 5px green;
+}
+body{
+	background:antiquewhite;
+}
+article{
+	background-color:beige;
+    padding: 25px;
+    border: 5px double purple;
+    border-radius: 20px;
+}
+img{
+	height: 170px;
+    width: 145px;
+    float: left;
+    padding: 25px;   
+}
+img:hover{
+	opacity: .75;
+}
+footer{
+	text-align: center;
+    padding:25px;
+}
+*{
+	box-sizing: border-box;
+} 
+input[type="text"],input[type="email"],{
+	width: 100%;
+    padding: 20px 20px;
+    margin : 8px 0;
+    display: block;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+input[type="submit"],input[type="reset"]{
+	width: 45%;
+    background-color: antiquewhite;
+    color: green;
+    padding: 14px 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 5px double green;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+	background-color: #45a049;
+    color: white;
+}
+iframe{
+	padding: 25px;
+	background-color: purple;
+	border: 12px double green;
+	border-radius: 12px;
+	margin-top:50px;
+	margin-left:50px;
+}
